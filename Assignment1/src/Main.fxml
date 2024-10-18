@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="src.com.example.sales.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+
+</AnchorPane>
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <?import java.lang.*?>
+        <?import java.util.*?>
+        <?import javafx.scene.*?>
+        <?import javafx.scene.control.*?>
+        <?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="src.com.example.studentgrading.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+
+<Label text="Student ID:" layoutX="20" layoutY="20"/>
+<TextField fx:id="studentIdField" layoutX="100" layoutY="20" />
+
+<Label text="Student Name:" layoutX="20" layoutY="60"/>
+<TextField fx:id="studentNameField" layoutX="100" layoutY="60" />
+
+<Label text="Course Name:" layoutX="20" layoutY="100"/>
+<TextField fx:id="courseNameField" layoutX="100" layoutY="100" />
+
+<Label text="Grade:" layoutX="20" layoutY="140"/>
+<TextField fx:id="gradeField" layoutX="100" layoutY="140" />
+
+<Button fx:id="addButton" text="Add Grade" layoutX="100" layoutY="180" onAction="#handleAddButtonAction"/>
+
+<ListView fx:id="listView" layoutX="20" layoutY="220" prefHeight="150" prefWidth="560"/>
+</AnchorPane>
